@@ -1,0 +1,29 @@
+{
+  "name": "lfuture/liglog-php",
+  "description": "liglog扩展的php版本实现",
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "lfuture",
+      "email": "ln6265431@163.com"
+    }
+  ],
+  "minimum-stability": "dev",
+  "require": {
+    "php": ">=5.6"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "@stable"
+  },
+  "autoload": {
+    "psr-4": {
+      "Lfuture\\LigLog\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Lfuture\\LigLog\\Tests\\": "tests/"
+    }
+  }
+}
